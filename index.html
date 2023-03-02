@@ -30,6 +30,28 @@
           class="hidden p-3 px-6 pt-2 text-white rounded-full md:block bg-brightRed baseline hover:bg-brightRedLight"
           >Get Started</a
         >
+        <!-- hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focu:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <!-- Mobile Menn -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#">Pricing</a>
+          <a href="#">Product</a>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Community</a>
+        </div>
       </div>
     </nav>
     <!-- Hero Section -->
@@ -284,6 +306,9 @@
         <div
           class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
         >
+          <div class="mx-auto my-6 text-center text-white md:hidden">
+            Copyright &copy; 2023, All Right Reserved
+          </div>
           <!-- logo -->
           <div>
             <img src="./images/logo-white.png" alt="white logo" class="'h-8" />
